@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="703.0" prefWidth="754.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1ff051" height="703.0" layoutX="-4.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="765.0" />
+      <Label layoutX="157.0" layoutY="-8.0" prefHeight="57.0" prefWidth="405.0" text="Pink Flamingo Theme Party">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="8.0" layoutX="164.0" layoutY="35.0" stroke="BLACK" strokeType="INSIDE" width="391.0" />
+      <Arc fill="DODGERBLUE" layoutX="570.0" layoutY="21.0" length="270.0" radiusX="12.0" radiusY="11.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <TextArea editable="false" layoutX="382.0" layoutY="82.0" prefHeight="186.0" prefWidth="351.0" text="Everything is Pink In Your Birthday. &#10;&#10;Pink Flamingo is a Unique theme which we are offering for&#10;your Birthday Party. Pastries , Cup cakes, large candy crush &#10;game, pool side feature cookies, and pink ducks.&#10;so, what are you waiting for.&#10;&#10;At Last We Also Have a Surprise Gift .">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="pinkP" layoutX="558.0" layoutY="606.0" mnemonicParsing="false" onAction="#gotofeedback6" prefHeight="72.0" prefWidth="162.0" text="Submit">
+         <stylesheets>
+            <URL value="@../../../../Desktop/Fse%20Project/button.css" />
+            <URL value="@images/button.css" />
+         </stylesheets></Button>
+      <ImageView fitHeight="221.0" fitWidth="271.0" layoutX="14.0" layoutY="378.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Pink%20flamingo%20delights2.jpg.gif" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="130.0" fitWidth="137.0" layoutX="220.0" layoutY="561.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Pink%20flamingo%20delights3.jpg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="186.0" fitWidth="221.0" layoutX="303.0" layoutY="375.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Pink%20flamingo%20delights4.jpg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="286.0" fitWidth="271.0" layoutX="68.0" layoutY="82.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/Pink%20flamingo%20delights1.jpg.gif" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Button fx:id="backfeed" layoutX="585.0" layoutY="-4.0" mnemonicParsing="false" onAction="#gotothemed1" prefHeight="72.0" prefWidth="173.0" style="-fx-background-color: blue;" text=" Back">
+         <stylesheets>
+            <URL value="@images/button.css" />
+            <URL value="@images/dashboard.css" />
+         </stylesheets></Button>
+      <Button layoutX="393.0" layoutY="284.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="126.0" style="-fx-background-color: red;" stylesheets="@images/pricetag.css" text="1.5 Lac">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Button>
+      <Button fx:id="homepagebirthday" layoutY="-4.0" mnemonicParsing="false" onAction="#gotohomepagebirthday" prefHeight="72.0" prefWidth="152.0" style="-fx-background-color: blue;" stylesheets="@images/dashboard.css" text="Home">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

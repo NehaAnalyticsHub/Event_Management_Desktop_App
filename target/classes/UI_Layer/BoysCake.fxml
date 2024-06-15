@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Arc?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="654.0" prefWidth="723.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI_Layer.GUI_Controller">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1fd23f" height="654.0" layoutX="-1.0" stroke="BLACK" strokeType="INSIDE" width="723.0" />
+      <Label layoutX="296.0" layoutY="47.0" prefHeight="53.0" prefWidth="168.0" text="Boys Cakes">
+         <font>
+            <Font size="31.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff1f1f" height="13.0" layoutX="293.0" layoutY="89.0" stroke="BLACK" strokeType="INSIDE" width="174.0" />
+      <Arc fill="DODGERBLUE" layoutX="468.0" layoutY="74.0" length="270.0" radiusX="13.0" radiusY="11.0" startAngle="45.0" stroke="BLACK" strokeType="INSIDE" type="ROUND" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="504.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/babyboy.jpeg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="14.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/benrencake.jpeg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="31.0" layoutY="373.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/bossbaby.jpeg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="254.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/numbercake.jpeg" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="476.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/car.gif" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+      </ImageView>
+      <Label layoutX="31.0" layoutY="248.0" prefHeight="45.0" prefWidth="150.0" text="Boys Fav Ben10 Cake" textFill="CRIMSON">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="496.0" layoutY="262.0" prefHeight="39.0" prefWidth="144.0" text="Car Cake" textFill="CRIMSON">
+         <font>
+            <Font size="19.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="276.0" layoutY="409.0" prefHeight="39.0" prefWidth="144.0" text="Number Cake" textFill="CRIMSON">
+         <font>
+            <Font size="16.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="46.0" layoutY="523.0" prefHeight="32.0" prefWidth="114.0" text="Boss Baby Cake" textFill="CRIMSON">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <Label layoutX="505.0" layoutY="523.0" prefHeight="39.0" prefWidth="136.0" text="Baby Boy Shark Cake" textFill="CRIMSON">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <CheckBox fx:id="ben10cake" layoutX="67.0" layoutY="285.0" mnemonicParsing="false" onAction="#ben10cakeselect" text="Choose This" />
+      <CheckBox fx:id="carcake" layoutX="532.0" layoutY="293.0" mnemonicParsing="false" onAction="#carcakeselect" text="Choose This" />
+      <CheckBox fx:id="numbercake" layoutX="318.0" layoutY="440.0" mnemonicParsing="false" onAction="#numbercakeselect" text="Choose This" />
+      <CheckBox fx:id="bossbabycake" layoutX="78.0" layoutY="554.0" mnemonicParsing="false" onAction="#bossbabycakeselect" text="Choose This" />
+      <CheckBox fx:id="babysharkcake" layoutX="544.0" layoutY="554.0" mnemonicParsing="false" onAction="#babysharkcakeselect" text="Choose This" />
+      <Button fx:id="price3" layoutX="292.0" layoutY="578.0" mnemonicParsing="false" onAction="#gotoprice3" prefHeight="59.0" prefWidth="114.0" text="Submit">
+         <stylesheets>
+            <URL value="@../../../../Desktop/Fse%20Project/button.css" />
+            <URL value="@images/button.css" />
+         </stylesheets></Button>
+      <ImageView fitHeight="59.0" fitWidth="51.0" layoutX="5.0" layoutY="588.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/favcharacter.jpeg" />
+         </image>
+      </ImageView>
+      <Button fx:id="backcake" layoutX="508.0" mnemonicParsing="false" onAction="#gotoselectcake1" prefHeight="98.0" prefWidth="215.0" style="-fx-background-color: blue;" stylesheets="@images/dashboard.css" text="Back">
+         <font>
+            <Font size="42.0" />
+         </font></Button>
+      <Button layoutX="422.0" layoutY="2.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="87.0" text="About Us" />
+      <Button fx:id="bookeventbirthday" layoutX="234.0" layoutY="2.0" mnemonicParsing="false" onAction="#gotobookeventbirthday" prefHeight="59.0" prefWidth="107.0" text="Book Event" />
+      <Button fx:id="homepagebirthday" layoutY="1.0" mnemonicParsing="false" onAction="#gotohomepagebirthday" prefHeight="98.0" prefWidth="235.0" style="-fx-background-color: blue;" stylesheets="@images/dashboard.css" text="Home">
+         <font>
+            <Font size="34.0" />
+         </font>
+      </Button>
+      <Button fx:id="eventtypebirthday" layoutX="340.0" layoutY="2.0" mnemonicParsing="false" onAction="#gotoeventtypebirthday" prefHeight="59.0" prefWidth="87.0" text="Event Type" />
+   </children>
+</AnchorPane>
